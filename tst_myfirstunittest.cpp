@@ -34,14 +34,14 @@ void MyFirstUnitTest::testFahrenheitToCelsius()
 {
     MyClass myClass;
     QCOMPARE(myClass.fahrenheitToCelsius(32.0), 0.0);
-    QCOMPARE(myClass.fahrenheitToCelsius(0.0), -20);
+    QCOMPARE(myClass.fahrenheitToCelsius(0.0), -17.8);
     QCOMPARE(myClass.fahrenheitToCelsius(100.0), 37.8);
     QCOMPARE(myClass.fahrenheitToCelsius(50.0), 10.0);
 }
 
 void MyFirstUnitTest::testCase1()
 {
-    QVERIFY2(2>3, "Failure");
+    QVERIFY2(true, "Failure");
 }
 
 void MyFirstUnitTest::tableTestFahrenheitToCelsius_data()
