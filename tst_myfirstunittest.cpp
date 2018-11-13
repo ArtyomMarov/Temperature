@@ -51,11 +51,11 @@ void MyFirstUnitTest::tableTestFahrenheitToCelsius_data()
 
     QTest::newRow("Test data 1") << 0.0 << -17.8;
     QTest::newRow("Test data 2") << 10.0 << -12.2;
-    QTest::newRow("Test data 3") << 20.0 << -6.8;
+    QTest::newRow("Test data 3") << 20.0 << -6.7;
     QTest::newRow("Test data 4") << 32.0 << 0.0;
     QTest::newRow("Test data 5") << 40.0 << 4.4;
     QTest::newRow("Test data 6") << 50.0 << 10.0;
-    QTest::newRow("Test data 7") << 60.0 << 15.5;
+    QTest::newRow("Test data 7") << 60.0 << 15.6;
 }
 
 void MyFirstUnitTest::tableTestFahrenheitToCelsius()
